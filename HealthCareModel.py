@@ -4,8 +4,8 @@ import numpy as np
 import joblib
 
 # Load the trained model and preprocessor
-model = joblib.load('c:/Users/27713/HealthcarePredictor/insurance_model.pkl')
-preprocessor = joblib.load('c:/Users/27713/HealthcarePredictor/insurance_preprocessor.pkl')
+model = joblib.load('insurance_model.pkl')
+preprocessor = joblib.load('insurance_preprocessor.pkl')
 
 st.title("Insurance Charges Predictor")
 
